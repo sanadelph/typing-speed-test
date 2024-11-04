@@ -1,0 +1,15 @@
+.timer{
+    min-width: 10rem;
+    height: 10rem;
+    background-color: #495057;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #fff;
+    cursor: pointer;
+}
+.timer span{
+    font-size: 1.4rem;
+}

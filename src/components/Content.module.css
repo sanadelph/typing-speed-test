@@ -1,0 +1,30 @@
+.content{
+    user-select: none;
+}
+.char{
+    text-align: center;
+    font-size: 1.4rem;
+    color: #616263;
+    padding: 0 .8rem;
+    margin: 5px 1px 5px 0;
+    border-radius: 2px;
+}
+.char.active{
+    color: #228be6;
+    border-radius: 0;
+    border-bottom: 3px solid #228be6;
+    animation: cursorBlink 2s 1s infinite;
+}
+.char.correct{
+    color: #69db7c;
+    background-color: #e6fcf5;
+}
+.char.incorrect{
+    color: #e03131;
+    background-color: #ffe3e3;
+}
+@keyframes cursorBlink{
+    0% {border-color: #228be6;}
+    50% {border-color: transparent;}
+    100% {border-color: #228be6;}
+}
